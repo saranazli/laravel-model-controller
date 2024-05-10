@@ -3,21 +3,21 @@
 namespace App\Http\Controllers\Guest;
 
 use App\Http\Controllers\Controller;
-use App\Models\Movie;
 use Illuminate\Http\Request;
+use App\Models\Movie;
 
 class PageController extends Controller
 {
     public function index(){
 
-        $movies = Movie::all();
-
-        return view('home', compact('movies'));
+        return view('home');
 
     }
     public function newPage(){
 
-        return view('nuova-pagina');
+        $movies = Movie::all();
+
+        return view('nuova-pagina', compact('movies'));
 
     }
 }
