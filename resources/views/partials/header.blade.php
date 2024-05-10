@@ -2,11 +2,13 @@
   
   <div class="container text-center">
 
-    <h1>menù</h1>
+    <div>
+      <img src="{{$logo}}" alt="logo">
+    </div>
 
-    <a class="m-" href="{{route('home')}}">Home</a>
+    <a class="mx-4" href="{{route('home')}}">Home</a>
 
-    <a href="{{route('nuova-pagina')}}">nuova-pagina</a>
+    <a href="{{route('nuova-pagina')}}">Programma della settimana</a>
 
   </div>
   
