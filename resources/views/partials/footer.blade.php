@@ -1,3 +1,5 @@
 <footer>
-  <h1>THIS IS FOOTER</h1>
+  <div class="container text-center">
+    <h1>WELCOME</h1>
+  </div>
 </footer>

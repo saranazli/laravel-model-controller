@@ -1,8 +1,13 @@
 <header>
-  <h1>THIS IS HEADER</h1>
+  
+  <div class="container text-center">
 
-  <a href="{{route('home')}}">Home</a>
+    <h1>menù</h1>
 
-  <a href="{{route('nuova-pagina')}}">nuova-pagina</a>
+    <a class="m-" href="{{route('home')}}">Home</a>
+
+    <a href="{{route('nuova-pagina')}}">nuova-pagina</a>
+
+  </div>
   
 </header>
